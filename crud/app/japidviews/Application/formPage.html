@@ -1,0 +1,10 @@
+@extends main
+@(Integer pageType, SxData d)
+
+<form method="post" action="@{save()}">
+	<input type="hidden" name="d.id" value="${d.id}">
+	Name: <input name="d.name" value="${d.name}"> <br>
+	Val: <input name="d.val" value="${d.val}"> <br>
+	Status: <input name="d.status" value="${d.status}"> <br>
+	<input type="submit" value="保存"> <a href="@{index()}">返回</a>
+</form>

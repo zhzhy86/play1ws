@@ -1,0 +1,10 @@
+@extends main
+@import play.utils.*
+@(List<SxData> list)
+<a href="@{formPage(1,  null)}">新增</a>
+<table>
+	<tr><td>ID</td><td>Name</td><td>Value</td><td>createTime</td><td>操作</td></tr>
+	@for(SxData d: list) {
+	<tr><td>${d.id}</td><td>${d.name}</td><td>${d.val}</td><td>${d.createTime}</td><td><a href="@{formPage(2, d.id)}">修改</a>  |  <a href="@{delete(d.id)}">删除</a></td></tr>
+	@}
+</table>
