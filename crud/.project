@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>crud</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+		<nature>org.playframework.playclipse.playNature</nature>
+	</natures>
+	<linkedResources><link><name>crud</name><type>2</type><location>/home/zhzhy/Apps/play1.3.x/modules/crud/app</location></link>
+<link><name>conf/crud</name><type>2</type><location>/home/zhzhy/Apps/play1.3.x/modules/crud/conf</location></link>
+<link><name>public/crud</name><type>2</type><location>/home/zhzhy/Apps/play1.3.x/modules/crud/public</location></link>
+<link><name>docviewer</name><type>2</type><location>/home/zhzhy/Apps/play1.3.x/modules/docviewer/app</location></link>
+<link><name>public/docviewer</name><type>2</type><location>/home/zhzhy/Apps/play1.3.x/modules/docviewer/public</location></link>
+<link><name>jpa-1.0</name><type>2</type><location>/home/zhzhy/Apps/play1.3.x/modules/jpa-1.0/app</location></link>
+<link><name>conf/jpa-1.0</name><type>2</type><location>/home/zhzhy/Apps/play1.3.x/modules/jpa-1.0/conf</location></link>
+</linkedResources>
+</projectDescription>
