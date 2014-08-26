@@ -1,0 +1,17 @@
+# Application dependencies
+
+require:
+    - play
+    - play -> jpa 1.0
+    - play -> crud
+    - cn.bran -> japid 0.9.5.2
+    - cn.bran -> japidplay 0.9.5.2
+    - com.google.code.javaparser -> javaparser 1.0.8
+    
+# My custom repositories
+repositories:
+    - bran:
+        type:       http
+        artifact:   "https://raw.github.com/branaway/Japid/master/dist-lib/[module]-[revision].[ext]"
+        contains:
+            - cn.bran -> *
